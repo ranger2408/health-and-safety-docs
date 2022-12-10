@@ -1,0 +1,61 @@
+site_name: IMS health and safety
+
+# Theme config
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+   
+  features:
+    - header.autohide
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.expand
+
+markdown_extensions:
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+nav:
+      - 'index.md'
+      - 'Legal':
+          - ' part 2 of the labor code': 'Canada labour code part 2'
+      - 'duties':
+          - 'Duties interpretation.md'
+          - 'Employer duties.md'
+          - 'Employee duties.md'
+      - 'Employee rights':
+          - 'The right to know': 'The right to know'
+          - 'The right to participate': 'The right to participate'
+          - 'The right to be heard': 'The right to be heard'
+          - 'the right to refuse work': 'refusal to work'
+      - 'electrical safety':
+          - 'The fundamentals': 'electrical safety fundamentals'
+          - 'Grounding': 'Grounding'
+          - 'Electrical hazards on the ladder': 'electrical hazards aloft'
+      - 'PPE':
+          - 'Hard hats': 'ppe-hard hat'
+      - 'Regulations.md'
+      - 'Working at heights':
+          - 'General ladder use.md'
+          - 'Heights standards.md'
+          - 'Surveying the work area.md'
+      - 'Using the ladders':
+          - 'Ladder transportation': 'Transporting the ladder.md'
+          - 'climbing the ladders': 'Traversing the ladders.md'
+          - 'placing the ladder.md'
+          - 'Working on the ladders': 'Working on the ladder.md'
+      
+
+
+
+  
